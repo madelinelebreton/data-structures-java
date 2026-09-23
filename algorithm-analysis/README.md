@@ -6,9 +6,9 @@ and an optimized variant, `bubbleSort2`, that exits early once a full pass makes
 ## What's implemented
 
 `Sorting.java` holds all three algorithms, each instrumented to count **comparisons**,
-**swaps**, and **total execution time**. `Driver.java` runs six comparative test suites —
-array sizes 10 / 100 / 1000, each sorted and unsorted - plus edge cases: an empty array,
-a single-element array, a reverse-ordered array, and an array with many duplicates.
+**swaps**, and **total execution time**. `Driver.java` runs six comparative test suites;
+array sizes 10 / 100 / 1000, each sorted and unsorted, plus edge cases: an empty array,
+a single element array, a reverse-ordered array, and an array with many duplicates.
 
 ```
 javac *.java
@@ -39,25 +39,27 @@ Note: the full run prints several large arrays to the console and takes ~20–30
 | 1000 | Ordered | bubbleSort2 | 999 | 0 | 0.0137 |
 | 1000 | Ordered | shellSort | 8,006 | 0 | 0.0683 |
 
-**Analysis:** all three algorithms make 0 swaps on already-sorted arrays, as
+**Analysis:** all 3 algorithms make 0 swaps on already-sorted arrays, as
 expected. `bubbleSort2` makes exactly 9 / 99 / 999 comparisons on ordered arrays of size
 10 / 100 / 1000; one full pass (n−1 comparisons) is enough to confirm the array is
 sorted and exit early. `bubbleSort` and `bubbleSort2` always make the same number of
 swaps, since they share the same underlying swap logic.
 
 Execution time vs. array size, unsorted arrays
-<img width="735" height="518" alt="image" src="https://github.com/user-attachments/assets/cc56783e-efeb-4587-8be2-a966d93b0125" />
+<img width="686" height="441" alt="image" src="https://github.com/user-attachments/assets/fa1d3afe-386a-44ff-af08-b6cd1a192088" />
 
 
 For unsorted input, `shellSort` is consistently fastest, and the gap widens sharply at
-n = 1000: `bubbleSort` and `bubbleSort2` both show the quadratic O(n²) blow-up typical of
+n = 1000: `bubbleSort` and `bubbleSort2` both show the quadratic O(n²) blowup typical of
 bubble sort on random data, while `shellSort`'s O(n log n) average case keeps its time
 much lower.
 
-![Execution time vs. array size, sorted arrays](./figure12_sorted_time_vs_size.png)
+Execution time vs. array size, sorted arrays]
+<img width="688" height="440" alt="image" src="https://github.com/user-attachments/assets/1ddf743c-537f-4291-bbeb-3711eb5ccbe6" />
 
-For already-sorted input, `bubbleSort2`'s early-exit optimization makes it the fastest
-across the board — its best case is O(n), since the loop only runs for one pass.
+
+For pre-sorted input, `bubbleSort2`'s early-exit optimization makes it the fastest
+across the board. Its best case is O(n), since the loop only runs for one pass.
 `bubbleSort` has no such optimization and still iterates fully even when the array is
 already sorted. `shellSort` stays efficient but is slightly behind `bubbleSort2` here,
 since it still performs some comparisons despite the sorted input.
