@@ -45,7 +45,7 @@ expected. `bubbleSort2` makes exactly 9 / 99 / 999 comparisons on ordered arrays
 sorted and exit early. `bubbleSort` and `bubbleSort2` always make the same number of
 swaps, since they share the same underlying swap logic.
 
-Execution time vs. array size, unsorted arrays
+## Execution time vs. array size, unsorted arrays
 <img width="686" height="441" alt="image" src="https://github.com/user-attachments/assets/fa1d3afe-386a-44ff-af08-b6cd1a192088" />
 
 
@@ -54,7 +54,7 @@ n = 1000: `bubbleSort` and `bubbleSort2` both show the quadratic O(n²) blowup t
 bubble sort on random data, while `shellSort`'s O(n log n) average case keeps its time
 much lower.
 
-Execution time vs. array size, sorted arrays
+## Execution time vs. array size, sorted arrays
 
 <img width="688" height="440" alt="image" src="https://github.com/user-attachments/assets/1ddf743c-537f-4291-bbeb-3711eb5ccbe6" />
 
