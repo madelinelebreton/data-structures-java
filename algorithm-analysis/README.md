@@ -45,7 +45,9 @@ expected. `bubbleSort2` makes exactly 9 / 99 / 999 comparisons on ordered arrays
 sorted and exit early. `bubbleSort` and `bubbleSort2` always make the same number of
 swaps, since they share the same underlying swap logic.
 
-![Execution time vs. array size, unsorted arrays](./figure11_unsorted_time_vs_size.png)
+Execution time vs. array size, unsorted arrays
+<img width="735" height="518" alt="image" src="https://github.com/user-attachments/assets/cc56783e-efeb-4587-8be2-a966d93b0125" />
+
 
 For unsorted input, `shellSort` is consistently fastest, and the gap widens sharply at
 n = 1000: `bubbleSort` and `bubbleSort2` both show the quadratic O(n²) blow-up typical of
