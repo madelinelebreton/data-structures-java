@@ -54,7 +54,8 @@ n = 1000: `bubbleSort` and `bubbleSort2` both show the quadratic O(n²) blowup t
 bubble sort on random data, while `shellSort`'s O(n log n) average case keeps its time
 much lower.
 
-Execution time vs. array size, sorted arrays]
+Execution time vs. array size, sorted arrays
+
 <img width="688" height="440" alt="image" src="https://github.com/user-attachments/assets/1ddf743c-537f-4291-bbeb-3711eb5ccbe6" />
 
 
