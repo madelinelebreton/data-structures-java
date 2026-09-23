@@ -16,7 +16,7 @@ stacks/queues, list based ADTs, trees, heaps, graphs, and hash tables.
 
 ## Projects
 
-1. **[Algorithm Analysis — Searching & Sorting](./algorithm-analysis)**:
+1. **[Algorithm Analysis: Searching & Sorting](./algorithm-analysis)**:
    shellSort vs. bubbleSort vs. bubbleSort2, with a results table and performance
    graphs.
 2. **[Stacks & Queues](./stacks-queues)**: an array stack, a fixed capacity
