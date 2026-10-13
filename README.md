@@ -21,10 +21,10 @@ stacks/queues, list based ADTs, trees, heaps, graphs, and hash tables.
    graphs.
 2. **[Stacks & Queues](./stacks-queues)**: an array stack, a fixed capacity
    "drop-out" linked stack, and a linked double ended queue.
-3. **[Lists & Iterators](./lists-iterators)**: a stack and a double-ended
+3. **[Lists & Iterators](./lists-iterators)**: a stack and a double ended
    queue, each built on `java.util.LinkedList` and `java.util.ArrayList`.
-4. **[Trees & Binary Search Trees](./trees-bst)**: a binary decision tree
+4. **[Trees & Binary Search Trees](./trees-bst)**: binary decision tree
    and a complete linked binary search tree.
 5. **[Heaps, Graphs & Hashing](./heaps-graphs-hashing)**: in place heap
-   sort, an adjacency matrix graph, and a resizable hash table.
+   sort, adjacency matrix graph, and a resizable hash table.
 
