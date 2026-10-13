@@ -25,7 +25,7 @@ cd part2-graph
 javac *.java jsjf/*.java jsjf/exceptions/*.java
 java TestGraph
 ```
-<img width="500" alt="image" src="https://github.com/user-attachments/assets/adce4b0e-c4d9-4d94-9b34-7f870e4d3f0d" /> <img width="400" height="496" alt="image" src="https://github.com/user-attachments/assets/5ae0c45d-e99c-4b11-bdd7-1a7a40cbebe4" />
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/adce4b0e-c4d9-4d94-9b34-7f870e4d3f0d" /> <img width="400" alt="image" src="https://github.com/user-attachments/assets/5ae0c45d-e99c-4b11-bdd7-1a7a40cbebe4" />
 
 
 
