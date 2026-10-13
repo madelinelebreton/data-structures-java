@@ -3,7 +3,7 @@
 Three self-contained implementations, each verified against expected output for the
 core operations plus randomized tests (random length runs of random +/- integers, checking size/top/peek after each).
 
-## Part 1: `part1-array-stack` array-backed stack
+## Part 1: Array-Backed Stack
 A standard array implementation of a stack (`ArrayStack`), with the bottom of the stack
 fixed at index 0. Tested against expected values for push, pop, peek, isEmpty, and size,
 then stress tested with a random stack of positive and negative integers (including
@@ -14,7 +14,7 @@ cd part1-array-stack
 javac *.java && java Driver
 ```
 
-## Part 2: `part2-linked-stack` fixed capacity stack
+## Part 2: Fixed Capacity Stack
 A linked list stack (`LinkedStack`) with a twist: its capacity is fixed at construction
 (`n`), and once the stack holds `n` elements, pushing a new one causes the **bottom**
 element to drop out rather than growing the stack. Verified with a fixed capacity of 5,
@@ -26,7 +26,7 @@ cd part2-linked-stack
 javac *.java && java Driver
 ```
 
-## Part 3: `part3-linked-queue` double ended queue
+## Part 3: Double Ended Queue
 Despite the "queue" name, this implements a full **deque**: `enqueueFront`,
 `enqueueRear`, `dequeueFront`, `dequeueRear`, plus `first`/`last` accessors. Verified by
 enqueueing and dequeueing from both ends and checking `front`/`rear`/`size` after each
