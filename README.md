@@ -3,7 +3,7 @@
 Learning Java through 5 projects from algorithm analysis through core data structures to more advanced ones: sorting,
 stacks/queues, list based ADTs, trees, heaps, graphs, and hash tables.
 
-## Contents
+## Projects
 
 | Folder | Topic | What's implemented |
 |---|---|---|
@@ -13,18 +13,4 @@ stacks/queues, list based ADTs, trees, heaps, graphs, and hash tables.
 | [`trees-bst`](./trees-bst) | Trees & binary search trees | A binary decision tree and a full linked binary search tree (add/remove/min/max/find) |
 | [`heaps-graphs-hashing`](./heaps-graphs-hashing) | Heaps, graphs & hashing | In place heap sort, an adjacency matrix graph, and a dynamically resizable hash table |
 
-
-## Projects
-
-1. **[Algorithm Analysis: Searching & Sorting](./algorithm-analysis)**:
-   shellSort vs. bubbleSort vs. bubbleSort2, with a results table and performance
-   graphs.
-2. **[Stacks & Queues](./stacks-queues)**: an array stack, a fixed capacity
-   "drop-out" linked stack, and a linked double ended queue.
-3. **[Lists & Iterators](./lists-iterators)**: a stack and a double ended
-   queue, each built on `java.util.LinkedList` and `java.util.ArrayList`.
-4. **[Trees & Binary Search Trees](./trees-bst)**: binary decision tree
-   and a complete linked binary search tree.
-5. **[Heaps, Graphs & Hashing](./heaps-graphs-hashing)**: in place heap
-   sort, adjacency matrix graph, and a resizable hash table.
 
