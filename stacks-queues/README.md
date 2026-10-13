@@ -13,6 +13,8 @@ large values).
 cd part1-array-stack
 javac *.java && java Driver
 ```
+<img width="300" alt="image" src="https://github.com/user-attachments/assets/706e6dbe-efb3-4138-b613-b07d40086c08" />
+
 
 ## Part 2: Fixed Capacity Stack
 A linked list stack (`LinkedStack`) with a twist: its capacity is fixed at construction
@@ -25,6 +27,8 @@ shifts as expected.
 cd part2-linked-stack
 javac *.java && java Driver
 ```
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/343a2488-2069-4e01-8f0c-c05142a59186" />
+
 
 ## Part 3: Double Ended Queue
 Despite the "queue" name, this implements a full **deque**: `enqueueFront`,
@@ -36,3 +40,4 @@ operation.
 cd part3-linked-queue
 javac *.java && java Driver
 ```
+<img width="300" alt="image" src="https://github.com/user-attachments/assets/d450e7f2-51a5-4b36-ba14-4c48cf0d0ae7" />
