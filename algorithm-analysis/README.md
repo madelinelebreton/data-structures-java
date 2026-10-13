@@ -39,7 +39,7 @@ Note: the full run prints several large arrays to the console and takes ~20–30
 | 1000 | Ordered | bubbleSort2 | 999 | 0 | 0.0137 |
 | 1000 | Ordered | shellSort | 8,006 | 0 | 0.0683 |
 
-**Analysis:** all 3 algorithms make 0 swaps on already-sorted arrays, as
+**Analysis:** all 3 algorithms make 0 swaps on pre-sorted arrays, as
 expected. `bubbleSort2` makes exactly 9 / 99 / 999 comparisons on ordered arrays of size
 10 / 100 / 1000; one full pass (n−1 comparisons) is enough to confirm the array is
 sorted and exit early. `bubbleSort` and `bubbleSort2` always make the same number of
@@ -59,7 +59,7 @@ much lower.
 <img width="688" height="440" alt="image" src="https://github.com/user-attachments/assets/1ddf743c-537f-4291-bbeb-3711eb5ccbe6" />
 
 
-For pre-sorted input, `bubbleSort2`'s early-exit optimization makes it the fastest
+For pre-sorted input, `bubbleSort2` is optimized to exit early, making it the fastest
 across the board. Its best case is O(n), since the loop only runs for one pass.
 `bubbleSort` has no such optimization and still iterates fully even when the array is
 already sorted. `shellSort` stays efficient but is slightly behind `bubbleSort2` here,
